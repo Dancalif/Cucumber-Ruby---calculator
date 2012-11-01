@@ -1,0 +1,4 @@
+source :rubygems
+
+gem "selenium-webdriver", "2.25.0"
+gem "test/unit", "2.5.2"
