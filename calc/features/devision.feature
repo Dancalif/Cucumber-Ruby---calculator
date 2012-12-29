@@ -1,8 +1,7 @@
-
 Feature: Devision
 
   Scenario Outline: Division two numbers
-    Given the input "<input>.to_f.round(2)"
+    Given the input "<input>.to_f"
     When the calculator is run
     Then the output should be "<output>"
 
